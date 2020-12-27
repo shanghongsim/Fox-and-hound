@@ -6,6 +6,10 @@ This game is a modified version of Fox and Hounds, which is played on an 8x7 che
 
 At the start of the game, four hounds are lined up at one end of the board while the fox and at the other end of the board.
 
+<p align="center">
+  <img src="fig1.png" width="350" width="350" >
+</p>
+
 ## Movement:
 
 - Fox:
@@ -18,6 +22,10 @@ At the start of the game, four hounds are lined up at one end of the board while
   - The hounds are able to move diagonally on the black squares, one square each turn.
   - However, the hounds are only able to move diagonally forwards.
   - Only one hound can be chosen by the player to be moved at one time.
+  
+  <p align="center">
+  <img src="fig2.png" width="350" width="350" >
+</p>
 
 ## Winning Conditions:
 
@@ -31,7 +39,9 @@ At the start of the game, four hounds are lined up at one end of the board while
   - The hounds win if the fox has no more valid moves:
     - Case 1 – The fox is cornered on all four sides by hounds and can no longer move (Figure 4a).
     - Case 2 – The fox is cornered on the side of the board and can no longer move (Figure 4b).
-    
+
+![Screenshot](fig3.png)
+
 ## How to Play
 
 In the beginning, the Fox (Orange tile) and the Hounds (Hound 1: Yellow Tile, Hound 2: Green Tile, Hound 3: Blue Tile, Hound 4: Purple Tile) have already been placed in their starting positions. When the code is run, the fox will begin his turn first. The rows and columns are indexed on the board and the player will need to reference the rules to know which tile is traversable for the fox or the hound. The player(Fox) will then be prompted to choose the row and the column to move his tile to. After which, the turn will switch to the player(Hound). The player(Hound) will then need to choose the minion to move and to which column forwards. The game ends when a winning condition(stated above) is met and the board can then be reset back to its initial position.
